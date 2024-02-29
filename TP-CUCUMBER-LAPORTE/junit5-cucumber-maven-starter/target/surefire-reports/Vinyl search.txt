@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: Vinyl search
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.044 s <<< FAILURE! - in Vinyl search
+Search vinyls by release year  Time elapsed: 0.043 s  <<< ERROR!
+io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'an album with the title 'The Dark Side of the Moon', created by the band 'Pink Floyd', released in '01-03-1973' on the label 'Harvest Records'' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("an album with the title {string}, created by the band {string}, released in {string} on the label {string}")
+public void an_album_with_the_title_created_by_the_band_released_in_on_the_label(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("an album with the title {string}, created by the artist {string}, released in {string} on the label {string}")
+public void an_album_with_the_title_created_by_the_artist_released_in_on_the_label(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the customer searches for vinyls released between {string} and {string}")
+public void the_customer_searches_for_vinyls_released_between_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{int} albums should have been found")
+public void albums_should_have_been_found(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("album {int} should have the title {string}")
+public void album_should_have_the_title(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

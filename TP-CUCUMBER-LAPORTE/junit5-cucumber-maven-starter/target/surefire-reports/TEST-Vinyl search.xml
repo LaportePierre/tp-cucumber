@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Vinyl search" time="0.044" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Pierre\Desktop\Pierre\IUT\Cours-IUT\acceptance-tests\quick-starters\junit5-cucumber-maven-starter\target\test-classes;C:\Users\Pierre\Desktop\Pierre\IUT\Cours-IUT\acceptance-tests\quick-starters\junit5-cucumber-maven-starter\target\classes;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-java\6.10.3\cucumber-java-6.10.3.jar;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-core\6.10.3\cucumber-core-6.10.3.jar;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-gherkin\6.10.3\cucumber-gherkin-6.10.3.jar;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.3\cucumber-gherkin-messages-6.10.3.jar;C:\Users\Pierre\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Pierre\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Pierre\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-plugin\6.10.3\cucumber-plugin-6.10.3.jar;C:\Users\Pierre\.m2\repository\io\cucumber\docstring\6.10.3\docstring-6.10.3.jar;C:\Users\Pierre\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Pierre\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Pierre\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-junit-platform-engine\6.10.3\cucumber-junit-platform-engine-6.10.3.jar;C:\Users\Pierre\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\Pierre\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Pierre\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\Pierre\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\Pierre\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\Pierre\AppData\Local\Temp\surefire13315317483051911576\surefirebooter13816404014581630021.jar C:\Users\Pierre\AppData\Local\Temp\surefire13315317483051911576 2024-02-28T18-40-29_674-jvmRun1 surefire4018049684680212772tmp surefire_01737304836752197080tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Pierre\Desktop\Pierre\IUT\Cours-IUT\acceptance-tests\quick-starters\junit5-cucumber-maven-starter\target\test-classes;C:\Users\Pierre\Desktop\Pierre\IUT\Cours-IUT\acceptance-tests\quick-starters\junit5-cucumber-maven-starter\target\classes;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-java\6.10.3\cucumber-java-6.10.3.jar;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-core\6.10.3\cucumber-core-6.10.3.jar;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-gherkin\6.10.3\cucumber-gherkin-6.10.3.jar;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.10.3\cucumber-gherkin-messages-6.10.3.jar;C:\Users\Pierre\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\Pierre\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\Pierre\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-plugin\6.10.3\cucumber-plugin-6.10.3.jar;C:\Users\Pierre\.m2\repository\io\cucumber\docstring\6.10.3\docstring-6.10.3.jar;C:\Users\Pierre\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\Pierre\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\Pierre\.m2\repository\org\apiguardian\apiguardian-api\1.1.1\apiguardian-api-1.1.1.jar;C:\Users\Pierre\.m2\repository\io\cucumber\cucumber-junit-platform-engine\6.10.3\cucumber-junit-platform-engine-6.10.3.jar;C:\Users\Pierre\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\Pierre\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Pierre\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\Pierre\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\Pierre\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Pierre"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Pierre\Desktop\Pierre\IUT\Cours-IUT\acceptance-tests\quick-starters\junit5-cucumber-maven-starter"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Pierre\AppData\Local\Temp\surefire13315317483051911576\surefirebooter13816404014581630021.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="Pierre"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Pierre\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Pierre\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="C:\Users\Pierre\Desktop\Pierre\IUT\Cours-IUT\acceptance-tests\quick-starters\junit5-cucumber-maven-starter"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk-21\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\Pierre\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="Search vinyls by release year" classname="Vinyl search" time="0.043">
+    <error message="The step &apos;an album with the title &apos;The Dark Side of the Moon&apos;, created by the band &apos;Pink Floyd&apos;, released in &apos;01-03-1973&apos; on the label &apos;Harvest Records&apos;&apos; and 9 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@Given(&quot;an album with the title {string}, created by the band {string}, released in {string} on the label {string}&quot;)&#10;public void an_album_with_the_title_created_by_the_band_released_in_on_the_label(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Given(&quot;an album with the title {string}, created by the artist {string}, released in {string} on the label {string}&quot;)&#10;public void an_album_with_the_title_created_by_the_artist_released_in_on_the_label(String string, String string2, String string3, String string4) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;the customer searches for vinyls released between {string} and {string}&quot;)&#10;public void the_customer_searches_for_vinyls_released_between_and(String string, String string2) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;{int} albums should have been found&quot;)&#10;public void albums_should_have_been_found(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;album {int} should have the title {string}&quot;)&#10;public void album_should_have_the_title(Integer int1, String string) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.platform.engine.UndefinedStepException">io.cucumber.junit.platform.engine.UndefinedStepException: 
+The step 'an album with the title 'The Dark Side of the Moon', created by the band 'Pink Floyd', released in '01-03-1973' on the label 'Harvest Records'' and 9 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("an album with the title {string}, created by the band {string}, released in {string} on the label {string}")
+public void an_album_with_the_title_created_by_the_band_released_in_on_the_label(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("an album with the title {string}, created by the artist {string}, released in {string} on the label {string}")
+public void an_album_with_the_title_created_by_the_artist_released_in_on_the_label(String string, String string2, String string3, String string4) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("the customer searches for vinyls released between {string} and {string}")
+public void the_customer_searches_for_vinyls_released_between_and(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("{int} albums should have been found")
+public void albums_should_have_been_found(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("album {int} should have the title {string}")
+public void album_should_have_the_title(Integer int1, String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out><![CDATA[
+Scenario: Search vinyls by release year                                                                                                                &amp#27;[90m# com/sqli/isc/iut/courses/cucumber/vinyl-search.feature:4&amp#27;[0m
+  &amp#27;[33mGiven &amp#27;[0m&amp#27;[33man album with the title 'The Dark Side of the Moon', created by the band 'Pink Floyd', released in '01-03-1973' on the label 'Harvest Records'&amp#27;[0m &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36man album with the title 'Bad', created by the artist 'Michael Jackson', released in '31-08-1987' on the label 'Epic Records'&amp#27;[0m                     &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36man album with the title 'Tubular Bells', created by the artist 'Mike Oldfield', released in '25-05-1973' on the label 'Virgin Records'&amp#27;[0m           &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36man album with the title 'Like a Virgin', created by the artist 'Madonna', released in '12-11-1984' on the label 'Sire Records'&amp#27;[0m                   &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36man album with the title 'Yellow Submarine', created by the band 'The Beatles', released in '17-01-1969' on the label 'Apple'&amp#27;[0m                     &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36man album with the title 'Brothers in Arms', created by the band 'Dire Straits', released in '01-05-1985' on the label 'Vertigo Records'&amp#27;[0m          &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mthe customer searches for vinyls released between '1970' and '1980'&amp#27;[0m                                                                             &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36m2 albums should have been found&amp#27;[0m                                                                                                                 &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36malbum 1 should have the title 'Tubular Bells'&amp#27;[0m                                                                                                    &amp#27;[90m# null&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36malbum 2 should have the title 'The Dark Side of the Moon'&amp#27;[0m                                                                                        &amp#27;[90m# null&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

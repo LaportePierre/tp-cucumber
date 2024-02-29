@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: Go in a bar
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.043 s <<< FAILURE! - in Go in a bar
+They both order a drink and Mr LeBlanc pay the total and Mr Pignon is happy because he only consumed one drink  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.sqli.isc.iut.courses.cucumber.People.orderADrink(int)" because "this.pignon" is null
+
+They both order a drink  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.sqli.isc.iut.courses.cucumber.People.orderADrink(int)" because "this.pignon" is null
+
+They consumed another drink  Time elapsed: 0.01 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.sqli.isc.iut.courses.cucumber.People.orderADrink(int)" because "this.leblanc" is null
+
